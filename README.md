@@ -32,3 +32,7 @@ console.log(`SkyBlock Zamanı: ${calendar.getCurrentHour()}:${calendar.getFlatMi
 console.log(`Yağmur durumu ${calendar.isRaining()}`)
 console.log(`Kar durumu ${calendar.isSnowing()}`)
 ```
+
+
+TODO:
+- Documentation and usage of the internal functions.
