@@ -1,0 +1,24 @@
+{
+  "name": "calendarjs",
+  "version": "1.0.0",
+  "description": "A calendar library for Crafters SkyBlock",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irrld/calendarjs.git"
+  },
+  "author": "irrl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irrld/calendarjs/issues"
+  },
+  "homepage": "https://github.com/irrld/calendarjs#readme",
+  "dependencies": {
+    "i": "^0.3.7",
+    "java-random": "^0.4.0",
+    "npm": "^8.10.0"
+  }
+}
