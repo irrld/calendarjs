@@ -18,7 +18,6 @@
   "homepage": "https://github.com/irrld/calendarjs#readme",
   "dependencies": {
     "i": "^0.3.7",
-    "java-random": "^0.4.0",
     "npm": "^8.10.0"
   }
 }

@@ -1,4 +1,4 @@
-let Random = require('java-random');
+let Random = require('./java-random');
 
 const START_OF_TIMES = 1648800000; // seconds
 const TIME_MULTIPLIER = 72;
