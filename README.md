@@ -2,7 +2,7 @@
 A calendar library for Crafters SkyBlock
 
 Just clone the repository and use it, here is an example. Also you can check the [test.js](https://github.com/irrld/calendarjs/blob/main/test.js) file too.
-```
+```javascript
 var {Calendar} = require('/path/to/calendarjs/calendar'); // example C:/Users/irrel/Desktop/calendarjs/calendar
 
 var calendar = new Calendar();
@@ -18,7 +18,7 @@ console.log(`Snow state ${calendar.isSnowing()}`)
 ```
 
 Öncelikle repository'i clonela ve klasöre çıkart, daha sonra aşağıdaki örneği uygulayabilirsin. Ayrıca [test.js](https://github.com/irrld/calendarjs/blob/main/test.js) dosyasına da göz atabilirsin.
-```
+```javascript
 var {Calendar} = require('/path/to/calendarjs/calendar'); // örn. C:/Users/irrel/Desktop/calendarjs/calendar
 
 var calendar = new Calendar();
