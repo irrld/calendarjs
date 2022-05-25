@@ -59,7 +59,7 @@ class InternalCalendar {
     }
 
     getCurrentDay(time) {
-        return this.getAsMinutes(time) % SEASON_LENGTH + 1;
+        return this.getAsDays(time) % SEASON_LENGTH + 1;
     }
 
     getCurrentSeason(time) {
