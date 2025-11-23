@@ -1,5 +1,8 @@
-# calendarjs
-A calendar library for CraftersMC SkyBlock
+# 📅 CalendarJS
+
+**CalendarJS** is a lightweight time management library for **CraftersMC Skyblock**.
+
+## 🚀 Usage
 
 ```javascript
 var {

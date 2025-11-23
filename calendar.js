@@ -24,12 +24,12 @@ const CropType = Object.freeze([
 ]);
 
 function shuffleWithRandom(arr, rng) {
-  const a = arr.slice();
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = rng.nextInt(i + 1); // [0, i]
-    const tmp = a[i]; a[i] = a[j]; a[j] = tmp;
-  }
-  return a;
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+        const j = rng.nextInt(i + 1);
+        [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
 }
 
 function makeJavaRandomFromLongSeed(longSeed) {
